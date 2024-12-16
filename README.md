@@ -1,6 +1,6 @@
 # Melanoma-Detection-using-custom-cnn
 >
-> This project uses a custom CNN to detect melanoma in images of skin lesions among 10 classes. The Gradio library is used to create a web app for the model prediction. The model predicts with an % accuracy.
+> This project uses a custom CNN to detect melanoma in images among 9 classes. The model predicts with 90% accuracy.
 
 ## Table of Contents
 
@@ -59,18 +59,24 @@ The data set contains the following diseases:
 ### Baseline Model
 
 Accuracy and Loss charts for the baseline model
+![image](https://github.com/user-attachments/assets/bb950e62-03ec-479c-b6e1-812d497c7118)
+
 
 ### Augmented Model
 
 Accuracy and Loss charts for the augmented model
+![image](https://github.com/user-attachments/assets/57c3d981-dfc9-4888-b730-b562a385bbc0)
+
 
 ### Final Model
 
 Accuracy and Loss charts for the final model
+![image](https://github.com/user-attachments/assets/55cf69be-01ac-4d2d-a3de-daa02f1021df)
+
 
 # Conclusion
 
-As the accuracy of the model increases, the loss decreases. The final model has an accuracy of % and a loss of . The model is able to predict the class of the lesion with a high accuracy.
+As the accuracy of the model increases, the loss decreases. The final model has an accuracy of 90% and a loss of 0.4 . The model is able to predict the class with a high accuracy.
 Augmenting the data and countering class imbalance helped in improving the accuracy of the model.
 
 # Technologies Used
